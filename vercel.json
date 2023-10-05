@@ -1,6 +1,6 @@
 {
     "rewrites":[
-        {"source": "/(.*)","dist" : "/"}
+        {"source": "/(.*)","destination" : "/"}
         
     ]
 }
