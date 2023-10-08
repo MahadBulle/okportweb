@@ -2,6 +2,7 @@ import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
 import MyCVMahad from "../../assets/docs/MyCVMahad.pdf";
+import MyCV from "../../assets/docs/MyCV.pdf"
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import "./home.css";
 import Fade from "react-reveal/Fade";
@@ -49,7 +50,7 @@ const Home = () => {
               >
                 Hire Me
               </a>
-              <a className="btn btn-cv" href={MyCVMahad} download="MyCVMahad.pdf">
+              <a className="btn btn-cv" href={MyCV} download="MyCV.pdf">
                 My Resume
               </a>
             </div>
