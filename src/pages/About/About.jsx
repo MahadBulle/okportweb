@@ -9,7 +9,7 @@ const About = () => {
           <div className="row">
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
               <img
-                src="https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-6/386590646_1695005177686371_7593954392170464747_n.jpg?stp=dst-jpg_p526x296&_nc_cat=108&ccb=1-7&_nc_sid=5614bc&_nc_ohc=8xxP04cnuBoAX-dryOn&_nc_ht=scontent.fmgq1-2.fna&oh=00_AfBleix5ki5K-ARrLX6-_hphb4uaoOVfxba843aCMWjAbQ&oe=652251F7"
+                src="https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-6/320830186_716016596533598_1247553631676251335_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5614bc&_nc_ohc=DzXGEV7MP-sAX_oBpPh&_nc_ht=scontent.fmgq1-2.fna&oh=00_AfAGI6AugXDXNVtix-26RYIV9p21ZJagvFZOcA9KU9BFxw&oe=6527D3DB"
                 alt="profile_pic"
               />
             </div>
