@@ -23,7 +23,6 @@ import {
   SiAngular,
   SiOracle,
   SiNestjs,
-  Sireactnative
 } from "react-icons/si";
 export const TechstackList = [
   {
@@ -54,6 +53,11 @@ export const TechstackList = [
   {
     _id: 6,
     name: "React JS",
+    icon: SiReact,
+  },
+  {
+    _id: 22,
+    name: "React Native ",
     icon: SiReact,
   },
   {
@@ -126,10 +130,7 @@ export const TechstackList = [
     name: "Git / Github ",
     icon: SiGithub,
   },
-  {
-    _id: 23,
-    name: "React native ",
-    icon: Sireactnative
-  },
+
+  
 
 ];
