@@ -1,6 +1,6 @@
 
 import React, { useState,useRef } from "react";
-import { toast } from "react-toastify";
+import { toast } from 'react-hot-toast';
 import axios from "axios";
 import "./Contact.css";
 import Rotate from "react-reveal/Rotate";
