@@ -23,6 +23,7 @@ import {
   SiAngular,
   SiOracle,
   SiNestjs,
+  SiPrisma
 } from "react-icons/si";
 export const TechstackList = [
   {
@@ -124,6 +125,11 @@ export const TechstackList = [
     _id: 21,
     name: "Oracle ",
     icon: SiOracle,
+  },
+  {
+    _id: 21,
+    name: "Prisma  ",
+    icon: SiPrisma,
   },
   {
     _id: 22,
