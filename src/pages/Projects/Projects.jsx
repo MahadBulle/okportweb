@@ -1,6 +1,9 @@
 import React from "react";
 import "./Projects.css";
 import Spin from "react-reveal/Spin";
+import invoice from "../../assets/img/invoice.png"
+import betaadmin from "../../assets/img/betaadmin.png"
+import betaweb from "../../assets/img/betaweb.png"
 const Projects = () => {
   return (
     <>
@@ -24,7 +27,7 @@ const Projects = () => {
                 <div className="card-image">
                   <span className="card-notify-badge">Full stack</span>
                   <img
-                    src="https://scontent-mba1-1.xx.fbcdn.net/v/t1.15752-9/384563404_239799899065678_8000091403285438783_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=3hMd_qaNZSEAX_hfroh&_nc_ht=scontent-mba1-1.xx&oh=03_AdQRv4-JXvE82tfpo_s0XRqwDIsva4BSJDC100P9bQReSw&oe=65468A50"
+                    src={invoice}
                     alt="project1"
                   />
                 </div>
@@ -54,7 +57,7 @@ const Projects = () => {
                 <div className="card-image">
                   <span className="card-notify-badge">Full stack</span>
                   <img
-                    src="https://scontent-mba1-1.xx.fbcdn.net/v/t1.15752-9/384559594_986345802652244_917508593303299878_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=YoEz867oP3kAX-QaYnp&_nc_ht=scontent-mba1-1.xx&oh=03_AdRVTc9BCXrc7geagNoyalwAFeOIvV8PD6soD3xeRJiIXQ&oe=65465562"
+                    src={betaadmin}
                     alt="project2"
                   />
                 </div>
@@ -82,7 +85,7 @@ const Projects = () => {
                 <div className="card-image">
                   <span className="card-notify-badge">Front-endweb</span>
                   <img
-                    src="https://scontent-mba1-1.xx.fbcdn.net/v/t1.15752-9/384557869_855944256143039_5937637921703762869_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=YTlAa3dGdPwAX8BL4X7&_nc_ht=scontent-mba1-1.xx&oh=03_AdT6hUy4JXNOoqzXl-DAFGRhoRYGZplmsHqauSgtVdeR7g&oe=6546737F"
+                    src={betaweb}
                     alt="project1"
                   />
                 </div>
